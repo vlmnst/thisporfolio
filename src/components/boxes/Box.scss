@@ -1,0 +1,46 @@
+@import '../Sass/vars.scss';
+
+.Box1 {
+    background-color: $transparentPink;
+    height: 70vh;
+    border-radius: 2%;
+    margin: 4% 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Box1a {
+    background-color: $firstColorPink;
+    border-radius: 4% 4% 0 0;
+    height: 25vh;
+    margin-top: 4%;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Box2 {
+    background-color: $firstColorYellow;
+    border-radius: 0 0 4% 4% ;
+    height: 45vh;
+    margin-bottom: 4%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Box2a {
+    background-color: $transparentYellow;
+    height: 85vh;
+    border-radius: 4%;
+    margin: 4% 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Box3 {
+    background-color: $firstColorGreen;
+    border-radius: 0 0 4% 4% ;
+    height: 25vh;
+    margin-bottom: 4%;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Box3a {
+    background-color: $transparentGreen;
+    height: 75vh;
+    border-radius: 2% 2% 0 0;
+    margin-top: 4%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
