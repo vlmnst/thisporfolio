@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className="Home">
       <div>
-        <Card target={"targetPink"} />
-        <Card target={"targetYellow"} yellow={true} />
+        <Card target={"targetPink"} about={true} />
+        <Card target={"targetYellow"} yellow={true} proyects={true} />
         <Box clas={"Box1"} />
         <Box clas={"Box1a"} />
       </div>
@@ -15,7 +15,7 @@ const Home = () => {
         <Box clas={"Box2a"} />
       </div>
       <div>
-        <Card target={"targetGreen"} />
+        <Card target={"targetGreen"} contact={true} />
         <Box clas={"Box3"} />
         <Box clas={"Box3a"} />
       </div>
